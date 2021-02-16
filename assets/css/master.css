@@ -113,7 +113,7 @@
     }
     /* footer */
     
-    footer ul.social {
+    footer ul {
         list-style: none;
         padding-left: 0;
     }
@@ -122,6 +122,23 @@
         display: inline-block;
         font-size: 25px;
         margin-right: 10px;
+    }
+    
+    footer ul.links li {
+        margin-bottom: 10px;
+    }
+    
+    footer ul.links li:not(:first-child) {
+        opacity: .7;
+    }
+    
+    footer ul.links li:first-child {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    footer ul.links li:last-child {
+        margin-bottom: 20px;
     }
     /* <--------------------------------------------> */
     /* UTILITY */
