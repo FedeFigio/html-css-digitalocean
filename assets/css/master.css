@@ -1,0 +1,314 @@
+    /* XS */
+    /* navbar */
+    
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .navbar-default {
+        background-color: transparent;
+        border: none;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: rgb(3, 27, 79);
+    }
+    
+    .navbar-brand>img {
+        height: 100%;
+        display: block;
+    }
+    
+    .navbar a.btn.btn-default {
+        padding: 7px;
+        vertical-align: middle;
+        margin-top: 8px;
+        color: #2586FD;
+        border-color: #2586FD;
+    }
+    
+    .jumbotron {
+        background-image: url(../img/bg-sea.svg);
+    }
+    /* form */
+    
+    .form button {
+        width: 100%;
+        border: none;
+        font-weight: bold;
+        position: relative;
+    }
+    
+    .form form button img {
+        height: 20px;
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+    
+    .logos img {
+        width: 90%;
+        height: 200px;
+    }
+    /* deploy and scale */
+    /* .deploy-menu {
+        color: rgb(91, 105, 135);
+        border-left: 3px solid rgb(91, 105, 135);
+        padding: 10px;
+        font-size: 24px;
+    } */
+    
+    .deploy ul a {
+        color: rgb(91, 105, 135);
+        font-size: 16px !important;
+        text-decoration: none;
+        border-left: 3px solid rgb(91, 105, 135);
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 24px;
+    }
+    
+    a:focus {
+        border-left: 3px solid #2586FD !important;
+        color: #000 !important;
+    }
+    /* carousel */
+    
+    .carousel .gallery {
+        width: 70%;
+        display: inline-block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .carousel .gallery img {
+        width: 82%;
+    }
+    
+    .carousel .selection .circle {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #2586FD;
+        display: inline-block;
+        border-radius: 50%;
+        margin: 0 3px;
+    }
+    /* region */
+    
+    .region {
+        background-image: url(../img/bg-map.svg);
+        background-size: cover;
+        background-color: #031B4E;
+    }
+    
+    .region .test:not(:last-child) {
+        border-bottom: 1px solid white;
+    }
+    
+    .region .row.test {
+        height: 40px;
+        line-height: 40px;
+    }
+    /* <--------------------------------------------> */
+    /* UTILITY */
+    /* serygraphy */
+    
+    .list-style-none {
+        list-style: none;
+    }
+    
+    .uppercase {
+        text-transform: uppercase;
+    }
+    
+    .xs-txt-center {
+        text-align: center;
+    }
+    
+    .xs-txt-w-700 {
+        font-weight: 700 !important;
+    }
+    
+    .xs-underline {
+        text-decoration: underline;
+    }
+    
+    .xs-txt-12 {
+        font-size: 12px !important;
+    }
+    
+    .xs-txt-14 {
+        font-size: 14px !important;
+    }
+    
+    .xs-txt-18 {
+        font-size: 18px !important;
+    }
+    
+    .xs-txt-31 {
+        font-size: 31px !important;
+    }
+    
+    .xs-txt-24 {
+        font-size: 24px !important;
+    }
+    
+    .xs-txt-18 {
+        font-size: 18px !important;
+    }
+    /* text color */
+    
+    .txt-white {
+        color: #FFF !important;
+    }
+    
+    .txt-blue {
+        color: rgb(3, 27, 79);
+    }
+    
+    .txt-light-gray {
+        color: rgb(91, 105, 135) !important;
+    }
+    
+    .txt-light-blue {
+        color: #2586FD;
+    }
+    
+    .txt-azul {
+        color: #00D5D2;
+    }
+    /* background color */
+    
+    .bg-white {
+        background-color: #FFF;
+    }
+    
+    .bg-light-blue {
+        background-color: #2586FD;
+    }
+    
+    .bg-light-gray {
+        background-color: #F3F5F9;
+    }
+    /* margin */
+    
+    .mt-50 {
+        margin-top: 50px;
+    }
+    
+    .mt-12 {
+        margin-top: 12px;
+    }
+    
+    .mb-0 {
+        margin-bottom: 0;
+    }
+    
+    .mb-10 {
+        margin-bottom: 10px;
+    }
+    
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+    
+    .ml-50 {
+        margin-left: 50px;
+    }
+    /* opacity */
+    
+    .opacity {
+        opacity: .7;
+    }
+    /* padding */
+    
+    .p-0 {
+        padding: 0 !important;
+    }
+    
+    .px-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .py-15 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .py-30 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .py-50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* border radioous / box shadow */
+    
+    .radious-6 {
+        border-radius: 6px;
+    }
+    
+    .shadow-1 {
+        -webkit-box-shadow: 4px 3px 4px -1px rgba(0, 0, 0, 0.42);
+        box-shadow: 4px 3px 4px -1px rgba(0, 0, 0, 0.42);
+    }
+    /* S */
+    
+    @media all and (min-width: 768px) and (max-width: 991px) {
+        .navbar-header {
+            width: 100%;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-nav,
+        .navbar-right {
+            display: none;
+        }
+        .logos img {
+            width: 90%;
+            height: 80px;
+        }
+        .carousel .gallery::before,
+        .carousel .gallery::after {
+            font-size: 25px;
+            content: "<";
+            margin: 10px;
+            cursor: pointer;
+        }
+        .carousel .gallery::after {
+            content: ">";
+        }
+        /* <--------------------------------------------> */
+        /* UTILITY */
+        /* serygraphy */
+        .sm-txt-left {
+            text-align: left !important;
+        }
+    }
+    /* MD */
+    
+    @media all and (min-width:992px) {
+        .logos img {
+            width: 90%;
+            height: 80px;
+        }
+        .carousel .gallery::before,
+        .carousel .gallery::after {
+            font-size: 25px;
+            content: "<";
+            margin: 10px;
+            cursor: pointer;
+        }
+        .carousel .gallery::after {
+            content: ">";
+        }
+    }
+    /* LG */
+    
+    @media(min-width:1200px) {}
