@@ -53,11 +53,15 @@
     }
     /* deploy and scale */
     
+    .deploy img {
+        width: 40px;
+    }
+    
     .deploy ul a {
         color: rgb(91, 105, 135);
         font-size: 16px !important;
         text-decoration: none;
-        border-left: 3px solid rgb(91, 105, 135);
+        border-left: 2px solid rgba(91, 105, 135, .7);
         display: block;
         padding: 10px;
         text-decoration: none;
@@ -88,6 +92,22 @@
         display: inline-block;
         border-radius: 50%;
         margin: 0 3px;
+        cursor: pointer;
+    }
+    
+    .carousel .selection .circle a {
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    
+    .carousel .selection .circle a:focus {
+        background-color: #2586FD;
+    }
+    /* features */
+    
+    .features img {
+        width: 40px;
     }
     /* region */
     
@@ -142,11 +162,15 @@
     }
     /* help */
     
+    .help {
+        filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.301));
+    }
+    
     .help img {
         width: 100%;
     }
     
-    .circle {
+    .help .circle {
         background-color: #FFF;
         padding: 3px;
         text-align: center;
@@ -159,7 +183,7 @@
         right: -10px;
     }
     
-    .circle-in {
+    .help .circle-in {
         display: inline-block;
         padding: 2px 6px;
         background-color: red;
@@ -254,7 +278,7 @@
     }
     
     .txt-blue {
-        color: rgb(3, 27, 79);
+        color: rgb(3, 27, 79) !important;
     }
     
     .txt-light-gray {
@@ -369,13 +393,16 @@
         }
         .carousel .gallery::before,
         .carousel .gallery::after {
+            color: rgb(91, 105, 135);
+            font-family: "Font Awesome 5 Free";
             font-size: 25px;
-            content: "<";
+            font-weight: bold;
+            content: "\f053";
             margin: 10px;
             cursor: pointer;
         }
         .carousel .gallery::after {
-            content: ">";
+            content: "\f054";
         }
         /* <--------------------------------------------> */
         /* UTILITY */
@@ -393,13 +420,16 @@
         }
         .carousel .gallery::before,
         .carousel .gallery::after {
+            color: rgb(91, 105, 135);
+            font-family: "Font Awesome 5 Free";
             font-size: 25px;
-            content: "<";
+            font-weight: bold;
+            content: "\f053";
             margin: 10px;
             cursor: pointer;
         }
         .carousel .gallery::after {
-            content: ">";
+            content: "\f054";
         }
     }
     /* LG */
